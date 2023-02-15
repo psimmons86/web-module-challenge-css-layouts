@@ -113,3 +113,33 @@ button a {
     text-decoration: none;
     color: inherit;
 }
+
+@media(max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .links button {
+        width:40%;
+        margin: 1% 0;
+    }
+    .topsection{
+        width: 80%;
+        margin:0 auto;
+    }
+}
